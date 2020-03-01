@@ -1,25 +1,29 @@
 {
-  "name": "leaflet-sandbox",
-  "version": "1.0.0",
-  "description": "Leafletの実験",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YUUKIToriyama/leaflet-sandbox.git"
-  },
-  "keywords": [
-    "leaflet"
-  ],
-  "author": "YUUKIToriyama (github.com/YUUKIToriyama)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YUUKIToriyama/leaflet-sandbox/issues"
-  },
-  "homepage": "https://github.com/YUUKIToriyama/leaflet-sandbox#readme",
-  "dependencies": {
-    "leaflet": "^1.6.0"
-  }
+	"name": "leaflet-sandbox",
+	"version": "1.0.0",
+	"description": "Leafletの実験",
+	"main": "index.js",
+	"scripts": {
+		"start": "http-server -o",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YUUKIToriyama/leaflet-sandbox.git"
+	},
+	"keywords": [
+		"leaflet"
+	],
+	"author": "YUUKIToriyama (github.com/YUUKIToriyama)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/YUUKIToriyama/leaflet-sandbox/issues"
+	},
+	"homepage": "https://github.com/YUUKIToriyama/leaflet-sandbox#readme",
+	"dependencies": {
+		"leaflet": "^1.6.0"
+	},
+	"devDependencies": {
+		"http-server": "^0.12.1"
+	}
 }
